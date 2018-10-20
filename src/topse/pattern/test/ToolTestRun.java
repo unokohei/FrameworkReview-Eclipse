@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class ToolTestRun {
     public static void main(String[] args) {
         commandExecute("pwd");
-        commandExecute("java -cp out/production/FrameworkReview topse.pattern.CSVViewer rsrcs/sample.csv");
-        String classpath = "out/production/FrameworkReview";
+        commandExecute("java -cp bin topse.pattern.CSVViewer rsrcs/sample.csv");
+        String classpath = "bin";
         classpath += ":lib/minimal-json-0.9.6-SNAPSHOT.jar";
         commandExecute("java -cp " + classpath + " topse.pattern.JSONViewer https://server.msyk.net/sample.json");
     }
