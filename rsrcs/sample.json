@@ -1,0 +1,40 @@
+{
+  "dataType":"msyk-special-v0.0.1",
+  "data":[
+    {
+      "id":101,
+      "name":"JSON",
+      "phonetic":"ジェーソン",
+      "description":"JavaScriptのオブジェクトの文法を元に発見された、データ交換用のデータフォーマット",
+      "url":"http://www.json.org/"
+    },
+    {
+      "id":102,
+      "name":"ジェイソン・ボーヒーズ",
+      "phonetic":"ジェイソンボーヒーズ",
+      "description":"米国で制作されたスプラッターホラー映画「13日の金曜日」の主役である殺人鬼。ホッケーマスクを被っている",
+      "url":"https://en.wikipedia.org/wiki/Jason_Voorhees"
+    },
+    {
+      "id":103,
+      "name":"Jason",
+      "phonetic":"イアーソン",
+      "description":"ギリシャ神話に登場する英雄。コルキスの金羊毛皮の逸話が有名",
+      "url":"https://en.wikipedia.org/wiki/Jason"
+    },
+    {
+      "id":104,
+      "name":"ジェーソン",
+      "phonetic":"ジェーソン",
+      "description":"「365日、低価格」をスローガンとして掲げている、食料品や衣料などの生活物資を販売するディスカウントストア",
+      "url":"http://www.jason.co.jp/"
+    },
+    {
+      "id":105,
+      "name":"JASON LEARNING",
+      "phonetic":"ジェーソンラーニング",
+      "description":"21正規のSTEM教育をオンラインで提供するサービス",
+      "url":"http://www.jason.org/"
+    }
+  ]
+}
