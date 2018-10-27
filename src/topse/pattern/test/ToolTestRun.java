@@ -9,7 +9,8 @@ public class ToolTestRun {
         commandExecute("pwd");
         commandExecute("java -cp bin topse.pattern.CSVViewer rsrcs/sample.csv");
         String classpath = "bin";
-        classpath += ":lib/minimal-json-0.9.6-SNAPSHOT.jar";
+        classpath += ";lib/minimal-json-0.9.6-SNAPSHOT.jar";
+            // macOS and Linux users have to change the first character ; to :.
         commandExecute("java -cp " + classpath + " topse.pattern.JSONViewer https://server.msyk.net/sample.json");
     }
 
