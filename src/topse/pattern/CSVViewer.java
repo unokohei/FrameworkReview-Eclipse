@@ -95,7 +95,7 @@ public class CSVViewer {
                     col += 1;   //列カウンタを進める
                 }
                 for (j = 0; j < maxLines; j++) {    //CSVのレコードを複数の行に渡って出力する
-                    message = new StringJoiner(" + ", "+ ", " +");  //1行分の文字列を接続で作る
+                    message = new StringJoiner(" | ", "| ", " |");  //1行分の文字列を接続で作る
                     for (k = 0; k < maxCols; k++) { //列の数だけ繰り返す
                         String item = "";
                         try {
