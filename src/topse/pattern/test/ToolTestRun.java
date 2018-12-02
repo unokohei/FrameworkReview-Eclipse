@@ -19,7 +19,7 @@ public class ToolTestRun {
             Process p = Runtime.getRuntime().exec(cmd);
             p.waitFor();
             InputStream is = p.getInputStream();
-            BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            BufferedReader br = new BufferedReader(new InputStreamReader(is, "Shift-JIS"));
             while (true) {
                 String line = br.readLine();
                 if (line == null) {
